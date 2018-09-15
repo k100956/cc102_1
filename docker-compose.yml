@@ -1,0 +1,10 @@
+version: '2'
+services:
+jupyter-tutorial:
+    image: jupyter/base-notebook
+    container_name: test     
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./work:/home/test/work/
+    command: start-notebook.sh --NotebookApp.token=''
