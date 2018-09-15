@@ -1,6 +1,6 @@
  set -ex
-      userName=204065533127.dkr.ecr.ap-northeast-1.amazonaws.com
-      image=testUser
+      USERName=204065533127.dkr.ecr.ap-northeast-1.amazonaws.com
+      IMAGE=testUser
       version=`cat VERSION`
       echo "version: $version"
       docker build -t $userName/$image:latest .
