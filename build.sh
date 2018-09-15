@@ -3,5 +3,5 @@
       image=testUser
       version=`cat VERSION`
       echo "version: $version"
-      docker-compose build -t $userName/$image:latest .
+      docker build -t $userName/$image:latest .
       docker tag $userName/$image:latest $userName/$image:$version
