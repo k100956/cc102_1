@@ -14,4 +14,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/cc102_ecr_test:latest
+#      - docker push 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/cc102_ecr_test:latest
+      - docker push 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/cc102_ecr_test:api
+      - docker push 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/cc102_ecr_test:mysql
+      - docker push 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/cc102_ecr_test:line
+      - docker push 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/cc102_ecr_test:dns
+      - docker push 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/cc102_ecr_test:iii
