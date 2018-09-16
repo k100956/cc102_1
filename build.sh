@@ -8,6 +8,7 @@ docker build -t mysql -f ./dockerfile/dockerfile-mysql
 docker build -t line -f ./dockerfile/dockerfile-line
 docker build -t dns -f ./dockerfile/dockerfile-dns
 docker build -t iii -f ./dockerfile/dockerfile-iii
+#docker-compse up -d
 docker tag api $USERNAME/$IMAGE:api
 docker tag mysql $USERNAME/$IMAGE:mysql
 docker tag line $USERNAME/$IMAGE:line
